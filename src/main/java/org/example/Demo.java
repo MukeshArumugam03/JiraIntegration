@@ -46,7 +46,7 @@ public class Demo {
         String accountID="712020:19f9470c-a007-462c-8e47-47df00239f02";
         ZFJCloudRestClient client= ZFJCloudRestClient.restBuilder(ZephyURL, accessKey, SecretKey,accountID).build();
         JwtGenerator jwtGenerator= client.getJwtGenerator();
-//
+////
         String createCycleUri= ZephyURL +"/connect/public/rest/api/1.0/cycle";
 
         URI uri=new URI(createCycleUri);
